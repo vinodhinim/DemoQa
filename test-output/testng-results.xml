@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> This runs once before class]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> This runs before every method]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> testMethod2]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> This runs after every method]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> This runs before every method]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> testMethod1]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> This runs after every method]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> This runs once after class]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="105" started-at="2020-07-09T01:30:35 IST" finished-at="2020-07-09T01:30:35 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="105" started-at="2020-07-09T01:30:35 IST" finished-at="2020-07-09T01:30:35 IST">
+      <class name="com.internetapp.tests.reports.TestNG_ReportsAndLogs">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.internetapp.tests.reports.TestNG_ReportsAndLogs@6950e31]" name="setUp" is-config="true" duration-ms="15" started-at="2020-07-09T01:30:35 IST" finished-at="2020-07-09T01:30:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> This runs once before class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.internetapp.tests.reports.TestNG_ReportsAndLogs@6950e31]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-09T01:30:35 IST" finished-at="2020-07-09T01:30:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> This runs before every method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testMethod2()[pri:0, instance:com.internetapp.tests.reports.TestNG_ReportsAndLogs@6950e31]" name="testMethod2" duration-ms="11" started-at="2020-07-09T01:30:35 IST" finished-at="2020-07-09T01:30:35 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.internetapp.tests.reports.TestNG_ReportsAndLogs.testMethod2(TestNG_ReportsAndLogs.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> testMethod2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.internetapp.tests.reports.TestNG_ReportsAndLogs@6950e31]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-07-09T01:30:35 IST" finished-at="2020-07-09T01:30:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> This runs after every method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testMethod1()[pri:0, instance:com.internetapp.tests.reports.TestNG_ReportsAndLogs@6950e31]" name="testMethod1" duration-ms="5" started-at="2020-07-09T01:30:35 IST" finished-at="2020-07-09T01:30:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> testMethod1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.internetapp.tests.reports.TestNG_ReportsAndLogs@6950e31]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-09T01:30:35 IST" finished-at="2020-07-09T01:30:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> This runs before every method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.internetapp.tests.reports.TestNG_ReportsAndLogs@6950e31]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-07-09T01:30:35 IST" finished-at="2020-07-09T01:30:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> This runs after every method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="testMethod3()[pri:0, instance:com.internetapp.tests.reports.TestNG_ReportsAndLogs@6950e31]" name="testMethod3" duration-ms="0" started-at="2020-07-09T01:30:35 IST" depends-on-methods="com.internetapp.tests.reports.TestNG_ReportsAndLogs.testMethod2" finished-at="2020-07-09T01:30:35 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestNG_ReportsAndLogs.testMethod3()[pri:0, instance:com.internetapp.tests.reports.TestNG_ReportsAndLogs@6950e31] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestNG_ReportsAndLogs.testMethod3()[pri:0, instance:com.internetapp.tests.reports.TestNG_ReportsAndLogs@6950e31] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.internetapp.tests.reports.TestNG_ReportsAndLogs@6950e31]" name="cleanUp" is-config="true" duration-ms="1" started-at="2020-07-09T01:30:35 IST" finished-at="2020-07-09T01:30:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> This runs once after class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.internetapp.tests.reports.TestNG_ReportsAndLogs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
